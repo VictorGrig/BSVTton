@@ -1,5 +1,9 @@
 body {
-    background: black;
+    background: url('https://cdn.airplane-pictures.net/images/uploaded-images/2017/2/27/861362.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 /*@font-face {*/
