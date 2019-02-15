@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Have a problem? Find exact BSVTton and solve it like a boss!">
+    <meta name="author" content="Victor Grigoryev">
+
+    <title>BSVTton</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap-4.3.1-dist/css/bootstrap.css">		<!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="vendor/hover-grid/css/hover-grid.css">		            <!-- Hover grid CSS -->
+
+
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/img/favicon/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="BSVTton">
+    <meta name="application-name" content="BSVTton">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff"> <!-- Favicon -->
+</head>
+
+
+<body>
+
+    <div class="container-fluid">
+
+
+        <!-- Déjà vu Chorus -->
+        <div class="grid">
+            <figure class="effect-lily">
+                <img src="img/grid/pic1.jpg" alt="Déjà vu Chorus"/>
+                <figcaption>
+                    <div>
+                        <h2><span>Déjà</span> vu</h2>
+                        <p>I've just been in this place before, higher on the street and I know it's my time to go</p>
+                    </div>
+                    <a type="button" onclick="PlaySound('audio/aud1.mp3');"></a>
+                </figcaption>
+            </figure>
+        </div>
+
+
+        <!-- Cyka Blyat Song -->
+        <div class="grid">
+            <figure class="effect-sadie">
+                <img src="img/grid/pic2.jpg" alt="Cyka Blyat Song"/>
+                <figcaption>
+                    <h2>CYKA <span>BLYAT</span></h2>
+                    <p>Idi, if you know what I mean...</p>
+                    <a type="button" onclick="PlaySound('audio/aud2.mp3');"></a>
+                </figcaption>
+            </figure>
+        </div>
+
+
+        <!-- O kurwa Granddad -->
+        <div class="grid">
+            <figure class="effect-ruby">
+                <img src="img/grid/pic3.jpg" alt="O kurwa Granddad"/>
+                <figcaption>
+                    <h2>O <span>KURWA</span></h2>
+                    <p>Ja pierdolę</p>
+                    <a type="button" onclick="PlaySound('audio/aud3.mp3');"></a>
+                </figcaption>
+            </figure>
+        </div>
+
+
+        <!-- USSR Anthem 1st Verse -->
+        <div class="grid">
+            <figure class="effect-oscar">
+                <img src="img/grid/pic4.jpg" alt="USSR Anthem 1st Verse"/>
+                <figcaption>
+                    <h2><span>USSR</span> Anthem</h2>
+                    <p>For the Fatherland!</p>
+                    <a type="button" onclick="PlaySound('audio/aud4.mp3');"></a>
+                </figcaption>
+            </figure>
+        </div>
+
+
+        <!-- Screaming Niggers -->
+        <div class="grid">
+            <figure class="effect-roxy">
+                <img src="img/grid/pic5.jpg" alt="Screaming Niggers"/>
+                <figcaption>
+                    <h2>Wooooooah <span>Scream</span></h2>
+                    <p>Say it one more time</p>
+                    <a type="button" onclick="PlaySound('audio/aud5.mp3');"></a>
+                </figcaption>
+            </figure>
+        </div>
+
+
+        <!-- Pornhub Intro -->
+        <div class="grid">
+            <figure class="effect-milo">
+                <img src="img/grid/pic6.jpg" alt="Pornhub Intro"/>
+                <figcaption>
+                    <h2>Pornhub <span>Intro</span></h2>
+                    <p>A friend of mine asked to drop a link</p>
+                    <a type="button" onclick="PlaySound('audio/aud6.mp3');"></a>
+                </figcaption>
+            </figure>
+        </div>
+
+
+        <!-- Suffer Bitch Moment -->
+        <div class="grid">
+            <figure class="effect-dexter">
+                <img src="img/grid/pic7.jpg" alt="Suffer Bitch Moment"/>
+                <figcaption>
+                    <h2><span>Suffer</span> Bitch</h2>
+                    <p>You're nothing but a fucking traitor</p>
+                    <a type="button" onclick="PlaySound('audio/aud7.mp3');"></a>
+                </figcaption>
+            </figure>
+        </div>
+
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="vendor/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>		<!-- Bootstrap core JavaScript -->
+    <script type="text/javascript">
+        function PlaySound(path) {
+            var audioElement = document.createElement('audio');
+            audioElement.setAttribute('src', path);
+            audioElement.play();
+        }
+    </script>
+</body>
+</html>
